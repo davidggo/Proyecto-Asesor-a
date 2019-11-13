@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> seccion de contacto </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/contacto.css">
+</head>
+
+
+<body>
+
+    <ul class="nav justify-content-start ">
+        <li class="nav-item">
+            <img id="logo" src="../assets/E.png" alt="" width="250" height="250">
+        </li>
+        <li class="nav-item">
+            <a class="nav-link menu" href="#">Edufy</a>
+        <li class="nav-item">
+            <a class="nav-link menu2" href="#">Suscripción</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+    </ul>
+    <h3>Comienza por darte la oportunidad de mejorarte</h3>
+    <h3>Ponte en contacto con nosotros</h3>
+    <form action="https://formspree.io/xwkkbjwj" method="POST">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nombre completo</label>
+            <input name="Nombre" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Dirección</label>
+            <input name="Direccion" type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Telefono</label>
+            <input name="Telefono" type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">E-mail</label>
+            <input name="E-mail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Asunto</label>
+            <textarea name="Asunto" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+
+</body>
+
+</html>
