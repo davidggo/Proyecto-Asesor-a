@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edufy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <ul class="nav justify-content-end edufy-navi">
+        <li class="nav-item text-edufy">
+            <a class="nav-link text-active" href="../views/paquetes.html">Empieza Hoy!</a>
+        </li>
+        <li class="nav-item text-edufy">
+            <a class="nav-link" href="#">Contactos</a>
+        </li>
+        <li class="nav-item text-edufy">
+            <a class="nav-link" href="#">Recomiendanos!</a>
+        </li>
+        <li class="nav-item text-edufy">
+            <a class="nav-link" href="../views/cursos.html">Descarga tus Cursos!</a>
+        </li>
+    </ul>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="../assets/Basic.jpeg" id="image-basic" class="card-img-top active-plan-img"
+                        alt="BasicPlan.jpeg">
+                    <h5 class="card-title">Paquete Basico</h5>
+                    <p class="card-basic"></p>
+                    <ul>
+                        <li class="li-basic-1"></li>
+                        <li class="li-basic-2"></li>
+                        <li class="li-basic-3"></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">$229/mes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="../assets/Family.jpg" class="card-img-top" alt="FamilyPlan.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Paquete Familiar</h5>
+                    <p class="card-basic"></p>
+                    <ul>
+                        <li class="li-basic-1"></li>
+                        <li class="li-basic-2"></li>
+                        <li class="li-basic-3"></li>
+                        <li id="li-family"></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">$279/mes</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="../assets/Anual.jpeg" class="card-img-top" alt="AnualPlan.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Anual</h5>
+                    <p class="card-text">Disfruta nuestro plan basico a un costo reducido anual!</p>
+                    <a href="#" class="btn btn-primary">$2500 pago anual</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/paquetes.js"></script>
+</body>
+
+</html>
