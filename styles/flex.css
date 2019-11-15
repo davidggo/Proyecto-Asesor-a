@@ -1,0 +1,10 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.flex-card{
+width: 250px;
+}
